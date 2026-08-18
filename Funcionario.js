@@ -18,7 +18,7 @@ export class Funcionario {
         return this.#salario
     }
 
-    getSalario(novoSalario) {
+    setSalario(novoSalario) {
         this.#salario = novoSalario;
     }
 

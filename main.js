@@ -40,3 +40,7 @@ console.log(medicoNewton)
 console.log(secretariaFinancas)
 console.log(secretariaFinancas.agenda)
 
+console.log(" ====== Testes: ======= ")
+
+console.log(medicoNewton.getSalario())
+

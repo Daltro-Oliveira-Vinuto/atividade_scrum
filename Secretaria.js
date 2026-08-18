@@ -3,9 +3,9 @@ import {Funcionario} from "./Funcionario.js"
 
 
 export class Secretaria extends Funcionario {
-    constructor(nome, idFuncional, ramal) {
+    constructor(nome, idFuncional, salario, ramal) {
 
-        super(nome , idFuncional )
+        super(nome , idFuncional, salario)
 
         this.ramal = ramal;
         this.agenda = null;
