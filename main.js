@@ -14,8 +14,10 @@ const medicoNewton = new Medico(newtonNome, newtonId, newtonSalario, newtonCRM)
 
 let financasNome = "Galileu"
 let financasidFuncioal = 222
+let financasSalario = 500000
 let financasRamal = 6199998888
-const secretariaFinancas = new Secretaria(financasNome, financasidFuncioal, financasRamal)
+
+const secretariaFinancas = new Secretaria(financasNome, financasidFuncioal, financasSalario, financasRamal)
 
 let agendamento111Data = "25/12/2026"
 let agendamento111Descricao = "Preparar cirurgia"
@@ -42,5 +44,5 @@ console.log(secretariaFinancas.agenda)
 
 console.log(" ====== Testes: ======= ")
 
-console.log(medicoNewton.getSalario())
+console.log(`Salario do medico chamado ${medicoNewton.nome} e de R$ ${medicoNewton.getSalario()}`)
 
