@@ -8,7 +8,7 @@ export class Secretaria extends Funcionario {
         super(nome , idFuncional, salario)
 
         this.ramal = ramal;
-        this.agenda = null;
+        this.agendas = [];
 
     }
 
@@ -18,7 +18,9 @@ export class Secretaria extends Funcionario {
 
     criarAgendamento(data, descricao, responsavel) {
         
-        this.agenda = new Agenda(data, descricao, responsavel);
+        const novaAgenda = new Agenda(data, descricao, responsavel);
+
+        this.agendas.push( novaAgenda );
 
     }
 }

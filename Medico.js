@@ -5,7 +5,7 @@ export class Medico extends Funcionario {
     constructor(nome, idFuncional, salario, crm) {
         super(nome , idFuncional, salario)
         this.crm = crm
-        this.especialidade = ""
+        this.especialidades = []
     }
 
     descreverFuncao() {
@@ -13,6 +13,6 @@ export class Medico extends Funcionario {
     }
 
     adicionarEspecialidade(especialidade) {
-        this.especialidade = especialidade
+        this.especialidades.push( especialidade );
     }
 }

@@ -9,6 +9,6 @@ export class Especialidade {
 
     obterDetalhes() {
 
-        return console.log(`A especialidade tem as seguintes caracteristicas-> nome: ${this.nome}, codigo: ${this.codigo}, descricao: ${descricao} `);
+        return console.log(`A especialidade tem as seguintes caracteristicas-> nome: ${this.nome}, codigo: ${this.codigo}, descricao: ${this.descricao} `);
     }
 }
