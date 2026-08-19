@@ -53,9 +53,8 @@ Dailys assíncronas: cada integrante respondia no cartão do Trello corresponden
 | Organização e priorização dos cartões no Kanban | Kyara |
 | Validação dos critérios de aceite frente ao diagrama UML | Kyara |
 | Condução das Dailys e remoção de impedimentos (dúvidas de sintaxe JS) | Edilson |
-| Redação e revisão do README e da documentação de entrega | Edilson |
-| Feedback sobre os requisitos do sistema na Sprint Review | Tiago |
-| Link do quadro Kanban adicionado ao README | Daltro |
+| Redação e revisão do README e da documentação de entrega | Kyara |
+| Link do quadro Kanban adicionado ao README | Edilson |
 
 Sprint Review + Retrospective final: revisão conjunta do código, dos testes e da documentação antes do envio.
 
